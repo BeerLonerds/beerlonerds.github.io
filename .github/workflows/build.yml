@@ -1,8 +1,9 @@
 name: Build item list
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "00 18 * * *"
+    - cron: "05 18 * * *" 
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
