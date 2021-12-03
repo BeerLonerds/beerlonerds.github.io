@@ -2,7 +2,7 @@ name: Build item list
 on:
   workflow_dispatch:
   schedule:
-    - cron: "32 17 * * *"
+    - cron: "00 18 * * *"
 jobs:
   build:
     runs-on: ubuntu-latest
