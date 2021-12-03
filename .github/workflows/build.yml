@@ -1,0 +1,22 @@
+name: Build item list
+on: workflow_dispatch
+  # schedule:
+  #   - cron: "32 17 * * *"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      DETA_PROJECT_KEY: ${{ secrets.DETA_PROJECT_KEY }}
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Update item list
+        run: python ./.github/workflows/get_data.py
+      - name: Check for changes
+        run: git status
+      - name: Stage changes
+        run: git add .
+      - name: Commit changes
+        run: git commit -m "Auto updating index.html"
+      - name: Push changes
+        run: git push origin main
