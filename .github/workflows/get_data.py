@@ -1,7 +1,6 @@
 import os
 
 from bs4 import BeautifulSoup
-from more_itertools import last
 from deta import Deta
 
 
