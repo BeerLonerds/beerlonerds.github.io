@@ -1,3 +1,4 @@
+from datetime import datetime
 import os
 
 from bs4 import BeautifulSoup
@@ -5,6 +6,7 @@ from deta import Deta
 
 
 def main(db, file_path):
+    date_now = datetime.now().strftime("%Y%m%d%H%M%S%f")
     with open(file_path, "r") as f:
         soup = BeautifulSoup(f)
 
@@ -31,10 +33,13 @@ def main(db, file_path):
             tbody.append(tr)
 
         last_key = items.items[-1]["key"]
-        table.attrs["data-last"] = last_key
+    else:
+        last_key = date_now
+    
+    table.attrs["data-last"] = last_key
 
-        with open(file_path, "w") as f:
-            f.write(soup.prettify())
+    with open(file_path, "w") as f:
+        f.write(soup.prettify())
 
 if __name__ == "__main__":
     deta = Deta(os.getenv("DETA_PROJECT_KEY"))
