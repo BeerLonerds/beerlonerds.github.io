@@ -8,7 +8,7 @@ from deta import Deta
 def main(db, file_path):
     date_now = datetime.now().strftime("%Y%m%d%H%M%S%f")
     with open(file_path, "r") as f:
-        soup = BeautifulSoup(f)
+        soup = BeautifulSoup(f, features="html.parser")
 
     table = soup.body.find("table", {"id":"items-table"})
     last_key = table.attrs["data-last"]
