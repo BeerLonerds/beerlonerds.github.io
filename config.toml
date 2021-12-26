@@ -1,0 +1,20 @@
+baseURL = 'http://beerlonerds.github.io/'
+languageCode = 'fr-fr'
+title = 'BeerLonerds on the web'
+theme = 'beerlonerds'
+
+[menu]
+    [[menu.main]]
+        name = "Liens"
+        pre = "liens"
+        url = "/liens"
+        weight = 1
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+    custom_css = ['css/custom.css']
+    custom_js = ['js/custom.js']

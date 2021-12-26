@@ -1,0 +1,15 @@
+{{ $htmlTable := .Inner | markdownify }}
+{{ $table_class := .Get "table_class" }}
+{{ $thead_class := .Get "thead_class" }}
+{{ if .Get "caption" }}
+    {{ $caption := .Get "caption" }} 
+    {{ $old_cap := "<table>" }}
+    {{ $new_cap := printf "<table>\n<caption>%s</caption>" $caption }}
+    {{ $htmlTable = replace $htmlTable $old_cap $new_cap }} 
+{{ end }}
+{{ $old_class := "<table>" }}
+{{ $new_class := printf "<table class=\"table %s\">" $table_class }}
+{{ $htmlTable = replace $htmlTable $old_class $new_class }}
+<div class="container-table">
+{{ $htmlTable | safeHTML }}
+</div>
