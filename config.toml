@@ -1,4 +1,4 @@
-baseURL = 'http://beerlonerds.github.io/'
+baseURL = 'https://beerlonerds.github.io/'
 languageCode = 'fr-fr'
 title = 'BeerLonerds on the web'
 theme = 'beerlonerds'
