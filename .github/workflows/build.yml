@@ -12,8 +12,6 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
-        with:
-          ref: "newUI"
       - name: Install Python
         uses: actions/setup-python@v2
         with:
@@ -31,4 +29,4 @@ jobs:
           git commit -m "Auto updating index.html"
 
       - name: Push changes
-        run: git push origin main
+        run: git push origin ${{ github.ref }}
