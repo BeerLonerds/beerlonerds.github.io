@@ -1,4 +1,4 @@
-name: Build item list
+name: Update database
 on:
   workflow_dispatch:
     inputs:
