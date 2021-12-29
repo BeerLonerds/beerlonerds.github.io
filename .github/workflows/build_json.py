@@ -10,4 +10,4 @@ def append_to_json(path, saved_link):
 
 if __name__ == "__main__":
     saved_link = json.loads(sys.argv[1])
-    append_to_json("db.json", saved_link)
+    append_to_json("data/db.json", saved_link)
