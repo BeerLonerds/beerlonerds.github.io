@@ -1,0 +1,35 @@
+{{ define "main" }}
+<div class="block">
+  {{ .Content }}
+</div>
+<div class="block">
+  <div class="box">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Catégorie</th>
+          <th>URL</th>
+          <th>Description</th>
+          <th>Proposé par</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range $.Site.Data.db }}
+        <tr>
+          <td>
+            {{ range .categories }}
+              <span class="tag is-primary is-light">#{{ . }}</span>
+            {{ end }}
+          </td>
+          <td>
+            <a href="{{ .url }}">{{ .url }}</a>
+          </td>
+          <td>{{ .desc }}</td>
+          <td>{{ .user }}</td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+</div>
+{{ end }}
