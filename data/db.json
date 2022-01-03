@@ -1,7 +1,7 @@
 [
     {
         "categories": [
-            "#deeplearning"
+            "deeplearning"
         ],
         "desc": "Un gestionnaire d'expériences pour PyTorch et TensorFlow qui permet de comparer les apprentissages",
         "key": "20211129173200000000",
@@ -10,7 +10,7 @@
     },
     {
         "categories": [
-            "#programming"
+            "programming"
         ],
         "desc": "Un calendrier de l'avent avec chaque jour des challenges de programmation",
         "key": "20211202143000000000",
@@ -19,8 +19,8 @@
     },
     {
         "categories": [
-            "#opensource",
-            "#cheatsheet"
+            "opensource",
+            "cheatsheet"
         ],
         "desc": "Un repo qui agrège plein d'autres repos intéressants à propos de plein de sujets techniques (librairies Python, tutos, logiciels de productivité...) ou méthodo (écriture scientifique...)",
         "key": "20211210095451810799",
@@ -29,7 +29,7 @@
     },
     {
         "categories": [
-            "#cheatsheet"
+            "cheatsheet"
         ],
         "desc": "Un repo avec une grande liste de sites utiles, logiciels etc...",
         "key": "20211210095815397214",
@@ -38,9 +38,9 @@
     },
     {
         "categories": [
-            "#iso",
-            "#boot",
-            "#usb"
+            "iso",
+            "boot",
+            "usb"
         ],
         "desc": "Outil pour créer des clés USB multi-OS (windows, linux) avec persistance des données pour les live USB",
         "key": "20211225172305118373",
@@ -49,7 +49,7 @@
     },
     {
         "categories": [
-            "#linux"
+            "linux"
         ],
         "desc": "Un outil pour créer et gérer facilement des vms Ubuntu depuis n'importe quel os",
         "key": "20211225172756325974",
@@ -58,10 +58,10 @@
     },
     {
         "categories": [
-            "#crack",
-            "#office",
-            "#windows",
-            "#iso"
+            "crack",
+            "office",
+            "windows",
+            "iso"
         ],
         "desc": "Site qui repertorie des liens clean vers des ISO/Activateurs pour Windows & co",
         "key": "20211225213927567499",
@@ -70,8 +70,8 @@
     },
     {
         "categories": [
-            "#git",
-            "#secrets"
+            "git",
+            "secrets"
         ],
         "desc": "Un outil pour encrypter des secrets directement dans un dépôt git",
         "key": "20211226094946190972",
@@ -80,7 +80,7 @@
     },
     {
         "categories": [
-            "#cloud"
+            "cloud"
         ],
         "desc": "Un outil pour deporter son developpement sur le cloud\n",
         "key": "20211226173325171791",
