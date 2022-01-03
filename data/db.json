@@ -86,23 +86,5 @@
         "key": "20211226173325171791",
         "url": "https://mutagen.io/",
         "user": "Achille"
-    },
-    {
-        "key": "20220103170100957083",
-        "user": "Arnaud",
-        "url": "https://google.fr",
-        "desc": "Desc",
-        "categories": [
-            "test"
-        ]
-    },
-    {
-        "key": "20220103172221327379",
-        "user": "Arnaud",
-        "url": "https://google.fr",
-        "desc": "Desc",
-        "categories": [
-            "test"
-        ]
     }
 ]
