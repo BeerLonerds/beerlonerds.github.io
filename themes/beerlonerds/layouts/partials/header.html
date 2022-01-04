@@ -1,7 +1,7 @@
 <nav class="navbar is-info" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <a class="navbar-item" href="/">
-            <h3 class="title is-3 has-text-white has-text-weight-bold is-family-code">$> {{ .Site.Title }} <blink>█</blink></h3>
+            <h1 class="title is-size-3-desktop is-size-5-touch has-text-white has-text-weight-bold is-family-code">$> {{ .Site.Title }} <blink>█</blink></h1>
           </a>
 
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
@@ -13,7 +13,7 @@
       <div class="navbar-menu" id="navMenu">
           <div class="navbar-start">
             {{ range .Site.Menus.main }}
-              <a class="navbar-item is-size-5" href="{{ .URL }}">
+              <a class="navbar-item is-size-5-desktop is-size-7-touch" href="{{ .URL }}">
                 {{ .Name }}
               </a>
             {{ end }}
