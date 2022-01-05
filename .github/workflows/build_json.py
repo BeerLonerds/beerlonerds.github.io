@@ -6,7 +6,7 @@ def append_to_json(path, saved_link):
         db = json.loads(f.read())
         db.append(saved_link)
         f.seek(0)
-        f.write(json.dumps(db, indent=4))
+        f.write(json.dumps(db, indent=4, ensure_ascii=False))
 
 if __name__ == "__main__":
     saved_link = json.loads(sys.argv[1])
