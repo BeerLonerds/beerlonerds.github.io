@@ -26,7 +26,7 @@ jobs:
         run: |
           git config user.name "BeerLonerds website auto updater"
           git config user.email "<>"
-          git commit -m "Auto updating index.html"
+          git commit -m "Auto updating db.json"
 
       - name: Push changes
         run: git push origin main
