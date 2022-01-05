@@ -86,5 +86,14 @@
         "key": "20211226173325171791",
         "url": "https://mutagen.io/",
         "user": "Achille"
+    },
+    {
+        "key": "20220105110318151349",
+        "user": "Arnaud",
+        "url": "https://github.com/qwerty-fr/qwerty-fr",
+        "desc": "Clavier QWERTY adapt\u00e9 \u00e0 la saisie du fran\u00e7ais",
+        "categories": [
+            "misc"
+        ]
     }
 ]
