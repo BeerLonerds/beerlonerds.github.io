@@ -106,5 +106,15 @@
             "linux",
             "osx"
         ]
+    },
+    {
+        "key": "20220107093044747550",
+        "user": "Arnaud",
+        "url": "https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/",
+        "desc": "Un ensemble de 9 règles à respecter pour écrire des commentaires utiles",
+        "categories": [
+            "misc",
+            "programming"
+        ]
     }
 ]
