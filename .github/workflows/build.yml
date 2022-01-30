@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: 3.9
       - name: Update item list
-        run: python ./.github/workflows/build_json.py ${{ github.event.inputs.link }}
+        run: python ./.github/workflows/build_json.py "${{ github.event_path }}"
       - name: Check for changes
         run: git status
       - name: Stage changes
