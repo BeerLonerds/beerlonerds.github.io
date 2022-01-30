@@ -1,9 +1,9 @@
 import json
 import sys
 
-def load_saved_link(event_path):
-    with open(event_path) as f:
-        webhook_payload = json.load(event_path)
+def extract_saved_link(gh_event_path):
+    with open(gh_event_path) as f:
+        webhook_payload = json.load(f)
         return webhook_payload["inputs"]["link"]
 
 def append_to_json(path, saved_link):
@@ -15,5 +15,5 @@ def append_to_json(path, saved_link):
 
 if __name__ == "__main__":
     gh_event_path = sys.argv[1]
-    saved_link = load_saved_link(gh_event_path)
+    saved_link = extract_saved_link(gh_event_path)
     append_to_json("data/db.json", saved_link)
