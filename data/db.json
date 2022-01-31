@@ -145,5 +145,14 @@
             "selfhosting",
             "opensource"
         ]
+    },
+    {
+        "key": "20220131122134627784",
+        "user": "Arnaud",
+        "url": "https://pythonspeed.com",
+        "desc": "Un blog proposant des astuces d'optimisation de performances pour Python",
+        "categories": [
+            "python"
+        ]
     }
 ]
