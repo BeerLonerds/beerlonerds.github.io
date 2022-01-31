@@ -116,5 +116,34 @@
             "misc",
             "programming"
         ]
+    },
+    {
+        "key": "20220127172905850162",
+        "user": "Arnaud",
+        "url": "https://platform.slapdash.com",
+        "desc": "Un launcher (type alfred, ulauncher...) avec un modèle d'extension que je trouve pas mal",
+        "categories": [
+            "launcher"
+        ]
+    },
+    {
+        "key": "20220128230458408153",
+        "user": "Coco",
+        "url": "http://infolab.stanford.edu/~ullman/focs.html",
+        "desc": "Un excellent livre sur la représentation, la manipulation de l'information et les algorithmes associés en informatique",
+        "categories": [
+            "theorie",
+            "algorithmes"
+        ]
+    },
+    {
+        "key": "20220128231254535611",
+        "user": "Coco",
+        "url": "https://degooglisons-internet.org/en/alternatives",
+        "desc": "Liste d'applications et de services totalement libre et open-source pour remplacer les Google & co",
+        "categories": [
+            "selfhosting",
+            "opensource"
+        ]
     }
 ]
