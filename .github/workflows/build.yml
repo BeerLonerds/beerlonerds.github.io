@@ -18,6 +18,10 @@ jobs:
           python-version: 3.9
       - name: Update item list
         run: python ./.github/workflows/build_json.py "${{ github.event_path }}"
+  push:
+    if: ${{ !env.ACT }}
+    runs-on: ubuntu-latest
+    steps:
       - name: Check for changes
         run: git status
       - name: Stage changes
@@ -27,6 +31,5 @@ jobs:
           git config user.name "BeerLonerds website auto updater"
           git config user.email "<>"
           git commit -m "Auto updating db.json"
-
       - name: Push changes
         run: git push origin main
