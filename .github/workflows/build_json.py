@@ -4,7 +4,7 @@ import sys
 def extract_saved_link(gh_event_path):
     with open(gh_event_path) as f:
         webhook_payload = json.load(f)
-    return webhook_payload["inputs"]["link"]
+    return json.loads(webhook_payload["inputs"]["link"])
 
 def append_to_json(path, saved_link):
     with open(path, "r+") as f:
