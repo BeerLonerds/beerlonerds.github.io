@@ -18,9 +18,6 @@ jobs:
           python-version: 3.9
       - name: Update item list
         run: python ./.github/workflows/build_json.py "${{ github.event_path }}"
-  push:
-    runs-on: ubuntu-latest
-    steps:
       - name: Check for changes
         if: ${{ !env.ACT }}
         run: git status
