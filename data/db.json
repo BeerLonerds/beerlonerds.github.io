@@ -163,5 +163,15 @@
         "categories": [
             "cloud"
         ]
+    },
+    {
+        "key": "20220204213843057258",
+        "user": "C",
+        "url": "https://www.ikkaro.com/en/best-f-droid-apps/",
+        "desc": "Une liste d'applications FOSS pour un Android plus sain",
+        "categories": [
+            "opensource",
+            "android"
+        ]
     }
 ]
