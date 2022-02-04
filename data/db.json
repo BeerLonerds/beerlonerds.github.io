@@ -154,5 +154,14 @@
         "categories": [
             "python"
         ]
+    },
+    {
+        "key": "20220204121144543161",
+        "user": "Achille",
+        "url": "https://github.com/WassimBenzarti/colab-ssh",
+        "desc": "Un outil pour se connecter à un google colab en ssh (et donc chopper un gpu)",
+        "categories": [
+            "cloud"
+        ]
     }
 ]
