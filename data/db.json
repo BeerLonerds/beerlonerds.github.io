@@ -173,5 +173,14 @@
             "opensource",
             "android"
         ]
+    },
+    {
+        "key": "20220208225713802545",
+        "user": "Arnaud",
+        "url": "https://github.com/mljar/mercury",
+        "desc": "Un package Python pour générer des webapps interactives à partir d'un jupyter notebook",
+        "categories": [
+            "python"
+        ]
     }
 ]
