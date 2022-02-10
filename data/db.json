@@ -182,5 +182,15 @@
         "categories": [
             "python"
         ]
+    },
+    {
+        "key": "20220210131857414520",
+        "user": "Achille",
+        "url": "https://maruos.com/?ref=hackernoon.com",
+        "desc": "Faire tourner un OS Desktop sur son téléphone android (un peu comme samsung DEX)",
+        "categories": [
+            "dev",
+            "android"
+        ]
     }
 ]
