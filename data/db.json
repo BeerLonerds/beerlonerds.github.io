@@ -201,5 +201,14 @@
         "categories": [
             "tunnel"
         ]
+    },
+    {
+        "key": "20220407195310027448",
+        "user": "Arnaud",
+        "url": "https://towardsdatascience.com/python-f-strings-are-more-powerful-than-you-might-think-8271d3efbd7d",
+        "desc": "Quelques exemples d'utilisation poussée des f-strings",
+        "categories": [
+            "python"
+        ]
     }
 ]
