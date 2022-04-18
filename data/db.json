@@ -210,5 +210,14 @@
         "categories": [
             "python"
         ]
+    },
+    {
+        "key": "20220418171629250902",
+        "user": "Achille",
+        "url": "https://strawpoll.com",
+        "desc": "Un site pas mal pour créer un sondage rapidement (avec api / webhooks dispos)",
+        "categories": [
+            "tools"
+        ]
     }
 ]
