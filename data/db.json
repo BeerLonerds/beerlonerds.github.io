@@ -219,5 +219,14 @@
         "categories": [
             "tools"
         ]
+    },
+    {
+        "key": "20220421115744492548",
+        "user": "Arnaud",
+        "url": "https://bloomberg.github.io/memray",
+        "desc": "Un profileur mémoire pour Python",
+        "categories": [
+            "python"
+        ]
     }
 ]
