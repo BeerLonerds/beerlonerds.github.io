@@ -228,5 +228,14 @@
         "categories": [
             "python"
         ]
+    },
+    {
+        "key": "20220421120012080093",
+        "user": "Arnaud",
+        "url": "https://github.com/docopt/docopt",
+        "desc": "Générer une CLI à partir d'un message --help",
+        "categories": [
+            "python"
+        ]
     }
 ]
