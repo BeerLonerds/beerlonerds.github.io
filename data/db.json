@@ -237,5 +237,14 @@
         "categories": [
             "python"
         ]
+    },
+    {
+        "key": "20220504092253525421",
+        "user": "Achille",
+        "url": "https://pyscript.net/",
+        "desc": "Faire tourner du code python dans une page html",
+        "categories": [
+            "python"
+        ]
     }
 ]
