@@ -246,5 +246,16 @@
         "categories": [
             "python"
         ]
+    },
+    {
+        "key": "20220821071613080067",
+        "user": "C",
+        "url": "https://cryptpad.org/",
+        "desc": "Un équivalent à Google drive pour l'édition de documents Office mais open-source et auto-hebergeable",
+        "categories": [
+            "office",
+            "collaborative",
+            "selfhosted"
+        ]
     }
 ]
