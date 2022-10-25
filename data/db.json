@@ -257,5 +257,15 @@
             "collaborative",
             "selfhosted"
         ]
+    },
+    {
+        "key": "20221025115749047101",
+        "user": "Arnaud",
+        "url": "https://xon.sh",
+        "desc": "Shell qui permet d'utiliser à la fois les commandes bash et python",
+        "categories": [
+            "shell",
+            "python"
+        ]
     }
 ]
