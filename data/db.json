@@ -267,5 +267,15 @@
             "shell",
             "python"
         ]
+    },
+    {
+        "key": "20221028103028175724",
+        "user": "Arnaud",
+        "url": "https://wyag.thb.lt",
+        "desc": "Un gros tuto qui propose de réimplémenter Git from scratch en Python pour comprendre comment ça marche derrière",
+        "categories": [
+            "git",
+            "python"
+        ]
     }
 ]
