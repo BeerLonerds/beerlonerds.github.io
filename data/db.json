@@ -277,5 +277,15 @@
             "git",
             "python"
         ]
+    },
+    {
+        "key": "20221028195132574482",
+        "user": "Achille",
+        "url": "https://github.com/charmbracelet/vhs",
+        "desc": "Write terminal GIFs as code for integration testing and demoing your CLI tools.",
+        "categories": [
+            "cli",
+            "golang"
+        ]
     }
 ]
