@@ -287,5 +287,17 @@
             "cli",
             "golang"
         ]
+    },
+    {
+        "key": "20221031214659608520",
+        "user": "C",
+        "url": "https://github.com/pomdtr/sunbeam",
+        "desc": "Un petit projet indé très sympa qui permet de construire des dmenu-like custom",
+        "categories": [
+            "go",
+            "terminal",
+            "foss",
+            "tui"
+        ]
     }
 ]
