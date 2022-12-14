@@ -299,5 +299,15 @@
             "foss",
             "tui"
         ]
+    },
+    {
+        "key": "20221214175422306201",
+        "user": "Achille",
+        "url": "https://github.com/sorah/envchain",
+        "desc": "Un cli pour stocker ses secrets dans la keychain de votre os",
+        "categories": [
+            "cli",
+            "secrets"
+        ]
     }
 ]
