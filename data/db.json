@@ -309,5 +309,15 @@
             "cli",
             "secrets"
         ]
+    },
+    {
+        "key": "20230310212607636720",
+        "user": "Achille",
+        "url": "https://rust-lang.github.io/mdBook",
+        "desc": "le generateur de doc le plus simple que j'ai pu tester",
+        "categories": [
+            "rust",
+            "doc"
+        ]
     }
 ]
