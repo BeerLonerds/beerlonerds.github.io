@@ -319,5 +319,14 @@
             "rust",
             "doc"
         ]
+    },
+    {
+        "key": "20230322120859299605",
+        "user": "Arnaud",
+        "url": "https://github.com/typst/typst",
+        "desc": "Une alternative intéressante à LaTeX, en bêta pour l'instant",
+        "categories": [
+            "latex"
+        ]
     }
 ]
