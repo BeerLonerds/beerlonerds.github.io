@@ -328,5 +328,14 @@
         "categories": [
             "latex"
         ]
+    },
+    {
+        "key": "20230702145812477616",
+        "user": "Arnaud",
+        "url": "https://www.ctan.org/pkg/changes",
+        "desc": "Un package LaTeX bien pratique pour faire une peer-review de documents",
+        "categories": [
+            "latex"
+        ]
     }
 ]
