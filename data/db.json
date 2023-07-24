@@ -337,5 +337,15 @@
         "categories": [
             "latex"
         ]
+    },
+    {
+        "key": "20230724082523500052",
+        "user": "Arnaud",
+        "url": "https://github.com/EbookFoundation/free-programming-books",
+        "desc": "Un dépôt GitHub avec plein de liens vers des ressources gratuites pour apprendre plein de trucs (surtout des langages de programmation)",
+        "categories": [
+            "dev",
+            "doc"
+        ]
     }
 ]
