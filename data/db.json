@@ -347,5 +347,15 @@
             "dev",
             "doc"
         ]
+    },
+    {
+        "key": "20230728121803562493",
+        "user": "Arnaud",
+        "url": "https://www.get-notes.com/",
+        "desc": "Une app open-source de prise de note en markdown, qui permet notamment de créer des vues Kanban à partir de markdown",
+        "categories": [
+            "dev",
+            "tool"
+        ]
     }
 ]
