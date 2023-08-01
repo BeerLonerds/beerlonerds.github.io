@@ -357,5 +357,14 @@
             "dev",
             "tool"
         ]
+    },
+    {
+        "key": "20230801150355712497",
+        "user": "Arnaud",
+        "url": "https://distrosea.com/",
+        "desc": "Un site sympa pour tester différentes distribs linux",
+        "categories": [
+            "linux"
+        ]
     }
 ]
