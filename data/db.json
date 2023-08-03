@@ -366,5 +366,15 @@
         "categories": [
             "linux"
         ]
+    },
+    {
+        "key": "20230803083538644591",
+        "user": "Arnaud",
+        "url": "https://github.com/IgorSusmelj/pytorch-styleguide",
+        "desc": "Qques tips pour écrire du code PyTorch plus propre",
+        "categories": [
+            "deeplearning",
+            "python"
+        ]
     }
 ]
