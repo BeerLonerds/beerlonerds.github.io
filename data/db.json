@@ -376,5 +376,15 @@
             "deeplearning",
             "python"
         ]
+    },
+    {
+        "key": "20230809213442042553",
+        "user": "Arnaud",
+        "url": "https://cpu.land",
+        "desc": "Petit site sympa pour comprendre comment fonctionne un CPU",
+        "categories": [
+            "misc",
+            "theorie"
+        ]
     }
 ]
