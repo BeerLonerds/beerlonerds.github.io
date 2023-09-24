@@ -386,5 +386,15 @@
             "misc",
             "theorie"
         ]
+    },
+    {
+        "key": "20230924155837920029",
+        "user": "Achille",
+        "url": "https://github.com/jupyterlab/jupyter-ai",
+        "desc": "une intégration de chatgpt dans des notebooks jupyter",
+        "categories": [
+            "ai",
+            "python"
+        ]
     }
 ]
