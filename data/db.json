@@ -396,5 +396,15 @@
             "ai",
             "python"
         ]
+    },
+    {
+        "key": "20230929103713824259",
+        "user": "Achille",
+        "url": "https://butterfi.sh/",
+        "desc": "un wrapper qui permet d'integrer chatgpt à son shell",
+        "categories": [
+            "ai",
+            "shell"
+        ]
     }
 ]
