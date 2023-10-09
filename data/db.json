@@ -406,5 +406,14 @@
             "ai",
             "shell"
         ]
+    },
+    {
+        "key": "20231009074531787566",
+        "user": "Arnaud",
+        "url": "https://learn.scientific-python.org/development",
+        "desc": "Une tutoriel pour développer une librairie scientifique en Python",
+        "categories": [
+            "python"
+        ]
     }
 ]
