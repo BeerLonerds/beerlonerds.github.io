@@ -415,5 +415,15 @@
         "categories": [
             "python"
         ]
+    },
+    {
+        "key": "20231103180750559139",
+        "user": "Arnaud",
+        "url": "https://github.com/astral-sh/ruff",
+        "desc": "Un linter et formatteur ultra rapide pour Python écrit en Rust réimplémentant black, isort et flake8 dans une seule lib",
+        "categories": [
+            "dev",
+            "python"
+        ]
     }
 ]
