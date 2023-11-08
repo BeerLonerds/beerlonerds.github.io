@@ -425,5 +425,14 @@
             "dev",
             "python"
         ]
+    },
+    {
+        "key": "20231108085000540852",
+        "user": "Thomas",
+        "url": "https://r2devops.io/",
+        "desc": "Un outil de templating pour de la CI (entre autre), ça a l'air assez bien fichu",
+        "categories": [
+            "tool"
+        ]
     }
 ]
