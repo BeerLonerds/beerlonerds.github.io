@@ -434,5 +434,14 @@
         "categories": [
             "tool"
         ]
+    },
+    {
+        "key": "20231123212724759011",
+        "user": "Arnaud",
+        "url": "https://detexify.kirelabs.org",
+        "desc": "Draw a math symbol and find the corresponding LaTeX command",
+        "categories": [
+            "latex"
+        ]
     }
 ]
