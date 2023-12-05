@@ -443,5 +443,15 @@
         "categories": [
             "latex"
         ]
+    },
+    {
+        "key": "20231205185649360711",
+        "user": "Arnaud",
+        "url": "https://github.com/RamiKrispin/vscode-python",
+        "desc": "Un tuto pour setup un environnement de dev Docker + VSCode + Python",
+        "categories": [
+            "docker",
+            "python"
+        ]
     }
 ]
