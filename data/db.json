@@ -453,5 +453,19 @@
             "docker",
             "python"
         ]
+    },
+    {
+        "key": "20240120200400653084",
+        "user": "C",
+        "url": "https://spotube.krtirtho.dev/",
+        "desc": "Client Spotify alternatif qui permet de bénéficier de toutes les fonctionnalités gratuitement en utilisant YouTube comme source audio",
+        "categories": [
+            "foss",
+            "musique",
+            "youtube",
+            "spotify",
+            "offline",
+            "fdroid"
+        ]
     }
 ]
