@@ -467,5 +467,15 @@
             "offline",
             "fdroid"
         ]
+    },
+    {
+        "key": "20240124071534639198",
+        "user": "Thomas",
+        "url": "https://ubiquity.rs/home",
+        "desc": "Editeur markdown avec une UI très agréable + export pdf",
+        "categories": [
+            "dev",
+            "tool"
+        ]
     }
 ]
