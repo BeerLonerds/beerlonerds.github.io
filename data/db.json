@@ -477,5 +477,14 @@
             "dev",
             "tool"
         ]
+    },
+    {
+        "key": "20240207164821722845",
+        "user": "Thomas",
+        "url": "https://floorp.app/en/",
+        "desc": "un navigateur basé sur firefox, avec un design et des features un peu améliorées je trouve",
+        "categories": [
+            "tool"
+        ]
     }
 ]
