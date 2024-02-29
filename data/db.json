@@ -486,5 +486,14 @@
         "categories": [
             "tool"
         ]
+    },
+    {
+        "key": "20240229151052801194",
+        "user": "Arnaud",
+        "url": "https://github.com/yuzu-emu/yuzu",
+        "desc": "Un émulateur Switch expérimental",
+        "categories": [
+            "gaming"
+        ]
     }
 ]
