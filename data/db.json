@@ -495,5 +495,14 @@
         "categories": [
             "gaming"
         ]
+    },
+    {
+        "key": "20240412133545503787",
+        "user": "Achille",
+        "url": "https://indieauth.net/",
+        "desc": "une alternative à oauth",
+        "categories": [
+            "auth"
+        ]
     }
 ]
