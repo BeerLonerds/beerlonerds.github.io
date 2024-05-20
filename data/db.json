@@ -513,5 +513,15 @@
         "categories": [
             "ia"
         ]
+    },
+    {
+        "key": "20240520131300251921",
+        "user": "Achille",
+        "url": "https://marketplace.visualstudio.com/items?itemName=yy0931.vscode-sqlite3-editor",
+        "desc": "interface spreadsheet par dessus sqlite",
+        "categories": [
+            "sqlite",
+            "vscode"
+        ]
     }
 ]
