@@ -523,5 +523,16 @@
             "sqlite",
             "vscode"
         ]
+    },
+    {
+        "key": "20240828073414367722",
+        "user": "Thomas",
+        "url": "https://easings.net/",
+        "desc": "petit outil sympa qui donne une base de courbes avec la fonction associée ça peut être utile pour des effets sympa dans du dev",
+        "categories": [
+            "cheatsheet",
+            "dev",
+            "tools"
+        ]
     }
 ]
